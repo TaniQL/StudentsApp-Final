@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+      <div class="card border-0 shadow rounded-3 my-5">
+        <div class="card-body p-4 p-sm-5">
+          <h5 class="card-title text-center mb-5 fw-light fs-5">Iniciar sesión</h5>
+          <form [formGroup]="formulario" (ngSubmit)="login()">
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"
+                formControlName="user">
+              <label for="floatingInput">Usuario</label>
+              <span class="pt-2 pl-2 errors" *ngIf="formulario.get('user')?.errors?.['required'] && formulario.get('user')?.touched">Este campo es obligatorio</span>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                formControlName="password">
+              <label for="floatingPassword">Contraseña</label>
+              <span class="pt-2 pl-2 errors" *ngIf="formulario.get('password')?.errors?.['required'] && formulario.get('password')?.touched">Este campo es obligatorio</span>
+            </div>
+
+            <div class="d-grid">
+              <button [disabled]="!formulario.valid" class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Iniciar sesión</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

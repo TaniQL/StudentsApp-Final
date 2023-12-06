@@ -1,0 +1,49 @@
+<div class="container-courses">
+    <div class=" d-flex  align-items-center justify-content-between mt-4 mb-4">
+        <h4>Lista Estudiantes</h4>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table #tabla mat-table [dataSource]="students" class="mat-elevation-z8 text-center">
+
+                <ng-container matColumnDef="id">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Código </th>
+                    <td class="color" mat-cell *matCellDef="let element"> {{element.id}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="name">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Nombre </th>
+                    <td mat-cell *matCellDef="let element"> {{element.firstName}} {{element.lastName}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="category">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Correo </th>
+                    <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="profesor">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Estado </th>
+                    <td mat-cell *matCellDef="let element"> {{element.status ? 'Aprobado' : 'Desaprobado'}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="action">
+                    <th mat-header-cell *matHeaderCellDef class="text-center" > Acciones </th>
+                    <td mat-cell *matCellDef="let element" align="center">
+                        <button *ngIf="isAdmin" mat-icon-button color="primary" (click)="editStudent(element)">
+                            <mat-icon>edit</mat-icon>
+                        </button>
+                        <button  *ngIf="isAdmin" mat-icon-button color="warn" (click)="deleteStudent(element.id)">
+                            <mat-icon>delete</mat-icon>
+                        </button>
+                        <button  mat-icon-button color="accent" (click)="moreInfoStudents(element)">
+                            <mat-icon>description</mat-icon>
+                        </button>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+.container-users {
+    position: absolute;
+    left: 21%;
+    width: 1150px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 0px;
+    color:  rgba(34,193,195,1);
+}

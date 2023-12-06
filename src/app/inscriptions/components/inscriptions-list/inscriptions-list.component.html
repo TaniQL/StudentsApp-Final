@@ -1,0 +1,37 @@
+<div class="container-courses">
+    <div class=" d-flex  align-items-center justify-content-between mt-4 mb-4">
+        <h3>Inscripciones</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table #tabla mat-table [dataSource]="courses" class="mat-elevation-z8 text-center">
+                <ng-container matColumnDef="id">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Código </th>
+                    <td class="color" mat-cell *matCellDef="let element"> {{element.id}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="name">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Nombre </th>
+                    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="profesor">
+                    <th mat-header-cell *matHeaderCellDef class="text-center"> Profesor </th>
+                    <td mat-cell *matCellDef="let element"> {{element.teacher}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="action">
+                    <th mat-header-cell *matHeaderCellDef class="text-center" > Acciones </th>
+                    <td mat-cell *matCellDef="let element" align="center">
+                        <button  mat-icon-button color="accent" (click)="showStudents(element)">
+                            <mat-icon>find_in_page</mat-icon>
+                        </button>
+                    </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+        </div>
+    </div>
+</div>

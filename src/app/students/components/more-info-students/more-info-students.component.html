@@ -1,0 +1,30 @@
+<div class="container">
+    <table class="table table-sm mt-2 mb-4">
+        <tbody>
+            <tr>
+                <th>Nombre</th>
+                <td>{{data.firstName}}</td>
+            </tr>
+            <tr>
+                <th>Apellido</th>
+                <td>{{data.lastName}}</td>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <td>{{data.id}}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{data.email}}</td>
+            </tr>
+            <tr>
+                <th>Curso Inscrito</th>
+                <td>{{data.registered[0]}}</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td><span>{{data.status ? 'Aprobado' : 'Desaprobado'}}</span></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

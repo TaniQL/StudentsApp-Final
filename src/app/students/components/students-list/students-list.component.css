@@ -1,0 +1,36 @@
+.container-courses {
+    position: absolute;
+    left: 21%;
+    width: 1150px;
+}
+
+table {
+    width: 100%;
+    background-color: #ffff
+  }
+  
+  th {
+    color:#424242;
+    border-bottom-color: rgb(129, 129, 129);
+    font-family: 'Electrolize', sans-serif;
+    font-size: 15px;
+  }
+  
+  td {
+    color: #424242;
+    border-bottom-color: rgb(129, 129, 129);
+    font-family: 'Electrolize', sans-serif;
+  }
+  
+  .container {
+    width: 1000px;
+    position:absolute;
+    right: 0
+  }
+
+  h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 0px;
+    color:  rgba(34,193,195,1);
+  }

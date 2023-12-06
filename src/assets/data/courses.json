@@ -1,0 +1,75 @@
+[
+    {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-001",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50",
+        "alumnos": [
+            {
+                "firstName": "Alexis Jose",
+                "lastName": "Perez Garcia",
+                "id": "202202",
+                "status": "aprobado",
+                "email": "Alexis@gmail.com"
+            },
+            {
+                "firstName": "Marco Francisca",
+                "lastName": "Rios Girón",
+                "id": "202203",
+                "status": "aprobado",
+                "email": "Marco@gmail.com"
+            }
+        ]
+    },
+    {
+        "category": "course",
+        "name": "React",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50",
+        "alumnos": [
+            {
+                "firstName": "Alexis Jose",
+                "lastName": "Perez Garcia",
+                "id": "202202",
+                "status": "aprobado",
+                "email": "Alexis@gmail.com"
+            },
+            {
+                "firstName": "Marco Francisca",
+                "lastName": "Rios Girón",
+                "id": "202203",
+                "status": "aprobado",
+                "email": "Marco@gmail.com"
+            }
+        ]
+    },
+    {
+        "category": "course",
+        "name": "Vue",
+        "id": "C-003",
+        "modalidad": "Presencial",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50",
+        
+        "alumnos": [
+            {
+                "firstName": "Alexis Jose",
+                "lastName": "Perez Garcia",
+                "id": "202202",
+                "status": "aprobado",
+                "email": "Alexis@gmail.com"
+            },
+            {
+                "firstName": "Marco Francisca",
+                "lastName": "Rios Girón",
+                "id": "202203",
+                "status": "aprobado",
+                "email": "Marco@gmail.com"
+            }
+        ]
+    }
+]

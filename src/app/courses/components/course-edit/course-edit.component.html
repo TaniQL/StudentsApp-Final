@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Editar curso</h1>
+
+<div mat-dialog-content>
+    <form [formGroup]="formCourse" (ngSubmit)="editCourse()">
+        <mat-form-field appearance="fill">
+            <mat-label>Nombre</mat-label>
+            <input matInput type="text" formControlName="name">
+        </mat-form-field> <br>
+        <mat-form-field appearance="fill">
+            <mat-label>Fecha inicio</mat-label>
+            <input matInput [matDatepicker]="dateStart" formControlName="dateStart">
+            <mat-datepicker-toggle matSuffix [for]="dateStart"></mat-datepicker-toggle>
+            <mat-datepicker #dateStart></mat-datepicker>
+        </mat-form-field> 
+        <mat-form-field appearance="fill">
+            <mat-label>Fecha fin</mat-label>
+            <input matInput [matDatepicker]="dateEnd" formControlName="dateEnd">
+            <mat-datepicker-toggle matSuffix [for]="dateEnd"></mat-datepicker-toggle>
+            <mat-datepicker #dateEnd></mat-datepicker>
+        </mat-form-field> <br>
+        <mat-form-field appearance="fill">
+            <mat-label>Profesor</mat-label>
+            <input matInput type="text" formControlName="teacher">
+        </mat-form-field> <br>
+    </form>
+</div>
+<div mat-dialog-actions align="end">
+    <button mat-button (click)="closeDialog()">Cancelar</button>
+    <button mat-flat-button color="primary" (click)="editCourse()">Editar</button>
+</div>

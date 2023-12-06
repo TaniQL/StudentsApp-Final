@@ -1,0 +1,369 @@
+[
+  {
+    "firstName": "Jonathan Luis",
+    "lastName": "Jimenez Diaz",
+    "id": "202201",
+    "email": "jonathan@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Alexis Jose",
+    "lastName": "Perez Garcia",
+    "id": "202202",
+    "email": "alexis@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Azucena Francisca",
+    "lastName": "Rios Girón",
+    "id": "202203",
+    "email": "azucena@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Alberto Agustin",
+    "lastName": "Sanchez Vasquez",
+    "id": "202204",
+    "email": "alberto@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Monica Rosa",
+    "lastName": "Montoya Fernandez",
+    "id": "202205",
+    "email": "monica@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Diana Clara",
+    "lastName": "Campos Salas",
+    "id": "202205",
+    "email": "diana@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Erik Jorge",
+    "lastName": "Sabater Rodriguez",
+    "id": "202206",
+    "email": "erik@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Freddy David",
+    "lastName": "Gomez Chavez",
+    "id": "202207",
+    "email": "freddy@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Gaba Juan",
+    "lastName": "Zapata Moreno",
+    "id": "202208",
+    "email": "gaba@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Hacib Juan",
+    "lastName": "Montes Moreno",
+    "id": "202209",
+    "email": "hacib@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "firstName": "Lizzebeth Reina",
+    "lastName": "Garcia Salas",
+    "id": "202210",
+    "email": "lizzebeth@gmail.com",
+    "telephone": "998504965",
+    "birthplace": "Sonora",
+    "category": "student",
+    "birthday": "4 Abril 1999",
+    "age": "23",
+    "address": "California, USA",
+    "grado": "4to año",
+    "about": "Diseño y desarrollo servicios para clientes de todos los tamaños, y me especializo en la creación de sitios web, servicios web y tiendas en línea modernos y con estilo. Mi pasión es diseñar experiencias de usuario digitales a través de una interfaz audaz e interacciones significativas.",
+    "cursos": [
+      {
+        "category": "course",
+        "name": "Angular",
+        "id": "C-002",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      },
+      {
+        "category": "course",
+        "name": "React",
+        "id": "C-003",
+        "modalidad": "Virtual",
+        "profesor": "Jose Ramos",
+        "capacidad": "15/50"
+      }
+    ]
+  },
+  {
+    "category": "course",
+    "name": "Angular",
+    "id": "CU-001"
+  },
+  {
+    "category": "course",
+    "name": "React",
+    "id": "CU-002"
+  },
+  {
+    "category": "course",
+    "name": "Vue",
+    "id": "CU-003"
+  }
+]

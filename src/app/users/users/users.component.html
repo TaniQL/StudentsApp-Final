@@ -1,0 +1,36 @@
+<div class="container-users">
+    <div class="container">
+        <div class="container-fluid p-0">
+            <h1 class="h3 mt-3 mb-3">Usuarios</h1>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <table class="table table-striped" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Usuario</th>
+                                        <th>Locación</th>
+                                        <th>Email</th>
+                                        <th>Rol</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let user of users">
+                                        <td><img src="https://bootdey.com/img/Content/avatar/avatar1.png" width="32" height="32" class="rounded-circle my-n1" alt="Avatar"></td>
+                                        <td>{{user.user}}</td>
+                                        <td>{{user.nationality}}</td>
+                                        <td>{{user.email}}</td>
+                                        <td><span >{{user.admin ? 'Administrador' : 'Usuario'}}</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+</div>

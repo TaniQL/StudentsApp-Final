@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.btn {
+    color: #fff;
+    border-color: #fff
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1d2851
+}
+
+.color-nav-bar {
+    /* font-family: 'Bungee', cursive; */
+    color: #fff;
+    background: rgb(34,193,195); 
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    opacity: 0.95;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.iconAuth {
+    border-radius: 50%;
+    border-width: 1px;
+    padding: 2px;
+    border-style: solid;
+    width: 30px;
+    height: 30px;
+    border-color: white;
+    margin-right: 5px;
+}
